@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Pop O'Clock",
+    "version": "1.0",
+    "description": "Shows a cute picture of an animal, holding a clock",
+    "permissions": ["alarms"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
